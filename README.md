@@ -1,13 +1,3 @@
-Got it, Sneha.
-You want a **clean, neat, structured README**, like a real professional GitHub project—not plain text.
-
-Here is a **perfectly structured, formatted, organized README**
-with headings, bullets, code blocks, and sections.
-
-Just copy–paste into your **README.md**.
-
----
-
 # 🌱 **AI Answer Evaluation for Sustainable AI Systems**
 
 ---
@@ -111,19 +101,8 @@ Saved trained classifier as `classifier.pkl`.
 
 ## 👩‍💻 **Developer**
 
-**Sneha**
+**Dharshini D**
 Final Project Submission
 AI Answer Evaluation for Sustainable AI
 
 ---
-
-This is a **clean, perfectly structured README**, exactly how GitHub expects.
-
-If you want, I can also prepare:
-
-✔ `requirements.txt`
-✔ `PROJECT_REPORT.md`
-✔ `PPT Slides`
-✔ `GitHub issue templates`
-
-Just tell me!
