@@ -1,0 +1,51 @@
+question_id	question	ai_answer	expected_answer	correctness
+1	What is the capital of France?	Paris	Paris	1
+2	What is 2+2?	5	4	0
+3	Who wrote Romeo and Juliet?	William Shakespeare	William Shakespeare	1
+4	Is water renewable?	Water is not renewable	Water is renewable through the hydrological cycle	0
+5	Define photosynthesis	Plants use sunlight to make food	Plants make food using light CO2 and water	1
+6	What is global warming?	Earth is cooling	Increase in Earth temperature due to greenhouse gases	0
+7	Who discovered gravity?	Newton	Isaac Newton	1
+8	Speed of light?	300000 km/s	299792458 m/s	1
+9	Is AI always unbiased?	Yes	No AI can inherit bias from data	0
+10	What is sustainability?	Using resources responsibly	Using resources responsibly for future generations	1
+11	Boiling point of water?	100C	100C	1
+12	Who painted Mona Lisa?	Leonardo da Vinci	Leonardo da Vinci	1
+13	Largest planet?	Saturn	Jupiter	0
+14	10/2 equals?	5	5	1
+15	Capital of India?	Mumbai	New Delhi	0
+16	How many continents exist?	7	7	1
+17	Chemical formula of water?	H2O	H2O	1
+18	9*9?	81	81	1
+19	Father of computers?	Charles Babbage	Charles Babbage	1
+20	Plants take in which gas?	Carbon dioxide	Carbon dioxide	1
+21	Powerhouse of the cell?	Mitochondria	Mitochondria	1
+22	Language spoken in Brazil?	Portuguese	Portuguese	1
+23	Freezing point of water?	0C	0C	1
+24	15 + 6?	21	21	1
+25	Organ that pumps blood?	Heart	Heart	1
+26	Is Pluto a planet?	No	No Pluto is a dwarf planet	1
+27	Define algorithm.	Steps to solve a problem	Step-by-step instructions	1
+28	Who invented the telephone?	Alexander Graham Bell	Alexander Graham Bell	1
+29	Main source of energy for Earth?	The Sun	The Sun	1
+30	CPU stands for?	Central Processing Unit	Central Processing Unit	1
+31	What is machine learning?	Machines learn from data	Machines learn patterns from data	1
+32	Define AI.	Ability to imitate human intelligence	Ability to imitate human intelligence	1
+33	What is climate change?	Long-term warming	Long-term warming and weather shifts	1
+34	Square root of 81?	9	9	1
+35	Capital of Japan?	Tokyo	Tokyo	1
+36	Photosynthesis occurs in?	Leaves	Leaves chloroplasts	1
+37	What is CO2?	Carbon dioxide	Carbon dioxide	1
+38	What is biodiversity?	Variety of species	Variety of species in an ecosystem	1
+39	Who is Einstein?	Physicist known for relativity	Physicist known for relativity	1
+40	What does RAM stand for?	Random Access Memory	Random Access Memory	1
+41	Is plastic biodegradable?	No	No	1
+42	Define ecosystem.	Community of organisms	Community of organisms interacting with environment	1
+43	Result of 12*3?	36	36	1
+44	Shape with 3 sides?	Triangle	Triangle	1
+45	What is recycling?	Converting waste into reusable material	Converting waste into reusable material	1
+46	Density formula?	mass/volume	mass/volume	1
+47	Define renewable energy.	Energy from sun wind water	Energy from sun wind water	1
+48	How many days in a leap year?	366	366	1
+49	What planet do we live on?	Earth	Earth	1
+50	Define ozone layer.	Layer protecting Earth from UV radiation	Layer protecting Earth from UV radiation	1
