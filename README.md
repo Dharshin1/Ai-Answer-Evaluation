@@ -14,33 +14,74 @@ It aims to support **responsible and efficient AI usage** by reducing manual eva
 
 ---
 
-## ⚙️ Technologies Used
-- Python 🐍  
-- NLP Libraries (Transformers, NLTK, Scikit-learn)  
-- Pandas / NumPy  
-- Google Colab / Jupyter Notebook
+⚙️ Technologies Used
 
----
+Python
 
-## 📂 Repository Structure
-```
-WEEK1/
+Sentence Transformers (MiniLM)
+
+Scikit-learn
+
+Pandas / NumPy
+
+Google Colab
+
+GitHub for version control
+
+📂 Repository Structure
+Ai-Answer-Evaluation/
 │
-├── problem_statement.txt
-├── objectives.txt
-├── methodology.txt
-├── expected_outcomes.txt
-├── requirements.txt
-└── README.md
-```
+├── Final_Project_Notebook.ipynb      # One-cell complete training code
+├── classifier.pkl                     # Trained ML model
+├── ai_dataset.tsv                     # Clean QA dataset
+├── README.md                          # Project description
+└── PROJECT_REPORT.md                  # Full written report (optional)
 
----
+🧠 How It Works
 
-## 📈 Week 1 Milestone
-**Improvisations done:**
-- Refined problem statement to focus on sustainable AI evaluation.
-- Identified suitable NLP tools for automated answer checking.
-- Created a clear project documentation structure.
+Convert AI answer + expected answer into embeddings
+
+Generate similarity score
+
+Feed similarity into Logistic Regression
+
+Predict:
+
+1 → Correct
+
+0 → Incorrect
+
+This model is extremely lightweight and runs fast → sustainable AI ✔.
+
+📈 Model Performance
+
+Sentence Transformer: all-MiniLM-L6-v2
+
+Classifier: Logistic Regression
+
+Achieved Accuracy: (paste your accuracy here)
+
+🧪 Files Included
+File	Purpose
+Final_Project_Notebook.ipynb	Full training + evaluation pipeline
+classifier.pkl	Saved trained model
+ai_dataset.tsv	Clean training dataset
+README.md	Documentation
+🚀 Future Improvements
+
+Build a complete website interface
+
+Add more datasets for training
+
+Deploy model as an API
+
+Add sustainability scoring metrics
+
+👩‍💻 Developer
+
+Developed by Dharshini D
+Course: Sustainable AI Project
+2025
 
 **GitHub Repository Link:**  
 👉 [https://github.com/Dharshin1/Ai-Answer-Evaluation](https://github.com/Dharshin1/Ai-Answer-Evaluation)
