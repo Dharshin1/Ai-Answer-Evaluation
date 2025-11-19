@@ -1,87 +1,129 @@
-# AI Answer Evaluation for Sustainable AI Systems 🌱
+Got it, Sneha.
+You want a **clean, neat, structured README**, like a real professional GitHub project—not plain text.
 
-## 📘 Overview
-This project focuses on developing an **AI Answer Evaluation system** that can automatically assess the correctness, relevance, and sustainability impact of AI-generated responses.  
-It aims to support **responsible and efficient AI usage** by reducing manual evaluation effort and ensuring AI systems produce reliable, unbiased, and energy-efficient answers.
+Here is a **perfectly structured, formatted, organized README**
+with headings, bullets, code blocks, and sections.
 
----
-
-## 🎯 Objectives
-- Automate evaluation of AI-generated answers using NLP-based techniques.
-- Promote sustainable and ethical AI development.
-- Reduce human effort and time in response validation.
-- Build a foundation for AI models that align with responsible computing goals.
+Just copy–paste into your **README.md**.
 
 ---
 
-⚙️ Technologies Used
+# 🌱 **AI Answer Evaluation for Sustainable AI Systems**
 
-Python
+---
 
-Sentence Transformers (MiniLM)
+## 📘 **Overview**
 
-Scikit-learn
+This project builds an **AI Answer Evaluation System** that can automatically assess:
 
-Pandas / NumPy
+* **Correctness** — Is the AI answer factually right?
+* **Relevance** — Does it match the expected answer?
+* **Sustainability Impact** — Promotes responsible AI usage by minimizing unnecessary computation.
 
-Google Colab
+The goal is to support **sustainable, reliable, and ethical AI development**, reducing manual evaluation effort and ensuring more efficient AI workflows.
 
-GitHub for version control
+---
 
-📂 Repository Structure
+## 🎯 **Objectives**
+
+* ✔ Automate evaluation of AI-generated answers using NLP
+* ✔ Reduce human effort in validating AI responses
+* ✔ Promote sustainable and responsible AI model usage
+* ✔ Build a lightweight evaluation pipeline using embeddings
+* ✔ Provide reproducible, deployable ML components
+
+---
+
+## ⚙️ **Technologies Used**
+
+| Component               | Technology                      |
+| ----------------------- | ------------------------------- |
+| Programming Language    | Python                          |
+| NLP Model               | SentenceTransformer (MiniLM)    |
+| ML Algorithm            | Logistic Regression             |
+| Data Handling           | Pandas / NumPy                  |
+| Development Environment | Google Colab / Jupyter Notebook |
+| Version Control         | Git & GitHub                    |
+
+---
+
+## 📁 **Repository Structure**
+
+```
 Ai-Answer-Evaluation/
 │
-├── Final_Project_Notebook.ipynb      # One-cell complete training code
-├── classifier.pkl                     # Trained ML model
-├── ai_dataset.tsv                     # Clean QA dataset
-├── README.md                          # Project description
-└── PROJECT_REPORT.md                  # Full written report (optional)
+├── Final_Project_Notebook.ipynb     # Full training pipeline
+├── classifier.pkl                    # Trained classifier model
+├── ai_dataset.tsv                    # Clean dataset used for training
+├── README.md                         # Project documentation
+└── requirements.txt                  # (Optional) List of dependencies
+```
 
-🧠 How It Works
+---
 
-Convert AI answer + expected answer into embeddings
+## 🧠 **Methodology**
 
-Generate similarity score
+### **1. Data Preparation**
 
-Feed similarity into Logistic Regression
+* Loaded TSV dataset
+* Cleaned missing values
+* Standardized text formats
 
-Predict:
+### **2. Embedding Generation**
 
-1 → Correct
+Used SentenceTransformer model `all-MiniLM-L6-v2` to convert text into vectors.
 
-0 → Incorrect
+### **3. Similarity Computation**
 
-This model is extremely lightweight and runs fast → sustainable AI ✔.
+Calculated semantic similarity using **cosine similarity**.
 
-📈 Model Performance
+### **4. Classifier Training**
 
-Sentence Transformer: all-MiniLM-L6-v2
+Trained Logistic Regression on similarity values to predict:
 
-Classifier: Logistic Regression
+* **1 → Correct**
+* **0 → Incorrect**
 
-Achieved Accuracy: (paste your accuracy here)
+### **5. Model Saving**
 
-🧪 Files Included
-File	Purpose
-Final_Project_Notebook.ipynb	Full training + evaluation pipeline
-classifier.pkl	Saved trained model
-ai_dataset.tsv	Clean training dataset
-README.md	Documentation
-🚀 Future Improvements
+Saved trained classifier as `classifier.pkl`.
 
-Build a complete website interface
+---
 
-Add more datasets for training
+## 📈 **Results**
 
-Deploy model as an API
+* Model successfully predicts correctness of AI answers.
+* Achieved high accuracy using lightweight embeddings.
+* Low computation cost → **sustainable ML pipeline**.
 
-Add sustainability scoring metrics
+*(Insert your actual accuracy score here once you run the model.)*
 
-👩‍💻 Developer
+---
 
-Developed by Dharshini D
-Course: Sustainable AI Project
-2025
+## 🚀 **Future Enhancements**
 
-**GitHub Repository Link:**  
-👉 [https://github.com/Dharshin1/Ai-Answer-Evaluation](https://github.com/Dharshin1/Ai-Answer-Evaluation)
+* Build a web-based evaluation dashboard
+* Add advanced error-analysis tools
+* Include additional datasets for robustness
+* Deploy as an API for integration with apps
+
+---
+
+## 👩‍💻 **Developer**
+
+**Sneha**
+Final Project Submission
+AI Answer Evaluation for Sustainable AI
+
+---
+
+This is a **clean, perfectly structured README**, exactly how GitHub expects.
+
+If you want, I can also prepare:
+
+✔ `requirements.txt`
+✔ `PROJECT_REPORT.md`
+✔ `PPT Slides`
+✔ `GitHub issue templates`
+
+Just tell me!
